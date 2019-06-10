@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/hero.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.main-h{
+    margin-top: 100px;
+    font-weight: 100
+}
+.hungery{
+    background-color: orange;
+}
+.more{
+    color: orange;
+    border: orange solid 1px
+}
+h3::after{
+    content: "";
+    height: 2px;
+    display: block;
+    background-color: orange;
+    width: 100px;
+    margin: 20px auto
+}
+
+.icon{
+    color: orange;
+    font-size: 35px;
+}
+.meals{
+    padding: 0
+}
+
+.num-icon{
+    width: 40px;
+    height: 40px;
+}
+
+.min-icon{
+    color: orange
+}
+
+.twitter{
+    color: orange
+}
+
+.Customer-testimonials{
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url(../images/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.coloumn{
+    font-size: 50px;
+    color: white;
+    padding: 0;
+    margin: 0;
+
+}
+.price{
+    color: orange
+}
+.check{
+    color: orange
+}
+.sign{
+    background-color: orange
+}
+.sign2{
+    color: orange;
+    border: solid 1px orange
+}
+
+.form{
+    position: absolute; right: 0px; top: 0px;
+    padding: 30px 15px;
+    height: 550px;
+    opacity: .9;
+}
